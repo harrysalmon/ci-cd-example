@@ -1,0 +1,10 @@
+name: ci-cd-example
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pip
+  - pip:
+      # Requirements for the installable packages are included in the setup.cfg
+      -  -e .
