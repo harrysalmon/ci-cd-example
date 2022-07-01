@@ -10,3 +10,5 @@ def returns_four():
 	logger.info('why 4')
 	return 4
 
+print(returns_four())
+logger.info('some info')
